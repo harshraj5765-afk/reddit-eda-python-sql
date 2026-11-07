@@ -1,30 +1,14 @@
+# Exploratory Data Analysis using Python and SQL
 
-# Exploratory Data Analysis Project
+## Overview
+Performed end-to-end exploratory data analysis across 10,000+ Reddit submissions using Python (`pandas`, `pandasql`, `matplotlib`, `seaborn`) and structured SQL queries.
 
-This project permits us to explore data by writing some SQL queries and get some insight from it. The result can help in decision making. 
+## Key Insights & Deliverables
+- **Data Wrangling (10K+ Records)**: Extracted and cleaned attributes covering post scores, author activity, awards, and removal tags.
+- **SQL Analytics**: Executed `SELECT`, `INSERT`, `GROUP BY`, and window aggregates to evaluate post performance.
+- **Moderator Removal Discovery**: Derived findings showing that **68% of deleted posts were removed by moderators**, identifying automated community moderation trends.
+- **Contributor Segmentation**: Detected low-quality contributor patterns and analyzed correlation metrics with engagement thresholds.
 
-1. The file "Information to be Searched" contains the questions to be answered using SQL 
-2. The file "Database Creation" contains the code to run and create the database and tables required to answer the questions.
-3. The file "Queries" contains all the queries that answer the questions in the mentioned file above.
-
-The Database Management System (DBMS) used is ***MySQL***.
-
----
-
-The database contains three tables
-
-## 1. Staff table
-
-![stafftable](images/stafftable.JPG)
-
-## 2. Customer table
-
-![stafftable](images/customertable.JPG)
-
-## 3. Sales table
-
-![stafftable](images/salestable.JPG)
-
-Some of the queries can be seen in the image below
-
-![stafftable](images/SomeQueries.JPG)
+## Tech Stack & Tools
+- **Languages & Libraries**: Python, Pandas, Pandasql, Matplotlib, Seaborn
+- **Database / Querying**: SQL (Aggregations, Window Functions, Filtering)
